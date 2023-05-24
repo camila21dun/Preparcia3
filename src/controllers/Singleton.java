@@ -14,6 +14,7 @@ public class Singleton {
 	Empresa empresa;
 	Factura factura;
 	private AplicationEmpresa aplicacion;
+	public static  Singleton INSTANCE;
 	
 	
 	private static class SingletonHolder{
